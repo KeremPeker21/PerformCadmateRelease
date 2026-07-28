@@ -1,0 +1,28 @@
+{
+  "appManager": {
+    "version": "1.0.10",
+    "downloadUrl": "https://raw.githubusercontent.com/KeremPeker21/PerformCadmateRelease/main/PerformApplicationManager.exe",
+    "changelog": "Geçmiş sürümler menüsü kısaltıldı: liste artık yalnızca en yeni 5 sürümü gösteriyor, uzun kaydırmalı sürüm listesi kaldırıldı."
+  },
+  "plugins": {
+    "PerformCADMATE2026": {
+      "latestVersion": "1.0.22",
+      "versions": [
+        {
+          "version": "1.0.22",
+          "date": "28.07.2026",
+          "downloadUrl": "https://raw.githubusercontent.com/KeremPeker21/PerformCadmateRelease/main/plugin.zip",
+          "changelog": "Mühendislik paneli komutları (KD, KDE, KDC, KK, CK, KTT, MEA) C#'a taşındı; KK ve KKR artık dairesel kolonları da (STATİK DAİRE KOLON bloğu) algılıyor, önceden yalnızca köşeli kolon izlerini görüyorlardı. MX (Mega Patlat) düzeltildi: dinamik bloklardaki (örn. kot bloğu) öznitelik değerleri patlatma sonrası artık kaybolmuyor; sınır testi de gevşetildi, blok sınırını taşan yazılar artık yanlışlıkla silinmiyor. ÖNEMLİ: Metraj modülü bu sürümden itibaren eklentiden tamamen kaldırıldı (Metraj sekmesi ve METRAJ, YP, YB, YH, BD, BH, CE, XFT, POZTUM, ZZZ dahil tüm metraj komutları); bu alan ayrı bir uygulama olarak sürdürülecek."
+        }
+      ]
+    },
+    "PerformKiris": {
+      "latestVersion": "0.0.0",
+      "versions": []
+    },
+    "PerformKolon": {
+      "latestVersion": "0.0.0",
+      "versions": []
+    }
+  }
+}
