@@ -1,13 +1,19 @@
 {
   "appManager": {
-    "version": "1.0.10",
+    "version": "1.0.11",
     "downloadUrl": "https://raw.githubusercontent.com/KeremPeker21/PerformCadmateRelease/main/PerformApplicationManager.exe",
-    "changelog": "Geçmiş sürümler menüsü kısaltıldı: liste artık yalnızca en yeni 5 sürümü gösteriyor, uzun kaydırmalı sürüm listesi kaldırıldı."
+    "changelog": "Lisanslama kaldırıldı: kullanılmayan \"Lisanslama\" butonu arayüzden çıkarıldı ve paketle birlikte gelen eklenti sürümü v1.0.23'e güncellendi."
   },
   "plugins": {
     "PerformCADMATE2026": {
-      "latestVersion": "1.0.22",
+      "latestVersion": "1.0.23",
       "versions": [
+        {
+          "version": "1.0.23",
+          "date": "10.08.2026",
+          "downloadUrl": "https://raw.githubusercontent.com/KeremPeker21/PerformCadmateRelease/main/plugin.zip",
+          "changelog": "LİSANSLAMA TAMAMEN KALDIRILDI. Eklenti artık lisans kontrolü yapmıyor, internet bağlantısı istemiyor ve hiçbir komut lisans nedeniyle engellenmiyor. \"İnternetsiz kullanım süreniz doldu\", \"Lisans süreniz doldu\" ve \"Bu bilgisayar için tanımlı bir lisans bulunamadı\" uyarıları ortadan kalktı; PLISANS ve MAKINEKIMLIGI komutları kaldırıldı. Eklenti açılışta artık hiçbir sunucuya bağlanmıyor."
+        },
         {
           "version": "1.0.22",
           "date": "28.07.2026",
